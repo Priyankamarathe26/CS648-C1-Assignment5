@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { MongoClient } = require('mongodb');
 
-const url = process.env.DB_URL || 'mongodb+srv://Priyanka26:AAUPM8095m*@nodedatabase.zmwgk.mongodb.net/myFirstDatabase?retryWrites=true';
+const url = process.env.DB_URL || 'mongodb+srv://Priyanka26:<password>@nodedatabase.zmwgk.mongodb.net/myFirstDatabase?retryWrites=true';
 
 
 function testWithCallbacks(callback) {
